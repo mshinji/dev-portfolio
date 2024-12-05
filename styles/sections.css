@@ -45,11 +45,42 @@
 }
 
 #projects {
+  padding: 72px 120px;
   background-color: var(--gray-200);
 
+  header {
+    margin-bottom: 56px;
+  }
+
   .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    grid-gap: 24px;
+
     .card {
-      h3 {}
+      align-content: center;
+      justify-items: center;
+      padding: 12px;
+      background-color: var(--gray-300);
+      width: 330px;
+      height: 280px;
+      border-radius: 12px;
+
+      img {
+        width: 306px;
+        height: 156px;
+        border-radius: 8px;
+      }
+
+      h3 {
+        font: var(--title-sm);
+        color: var(--gray-600);
+      }
+
+      figcaption {
+        font: var(--text-sm);
+        color: var(--gray-500);
+      }
     }
   }
 
