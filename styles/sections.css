@@ -5,6 +5,10 @@
   header {
     margin-top: 163px;
   }
+  .arrow-icon {
+    margin-top: 94px;
+    align-self: center;
+  }
 
   #tags {
     margin-top: 80px;
@@ -24,10 +28,6 @@
     span {
       font: var(--text-md);
       color: var(--gray-500);
-    }
-
-    img {
-      color: aqua;
     }
 
     .tag {
