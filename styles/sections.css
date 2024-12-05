@@ -5,6 +5,7 @@
   header {
     margin-top: 163px;
   }
+
   .arrow-icon {
     margin-top: 94px;
     align-self: center;
@@ -38,6 +39,17 @@
       justify-content: center;
       border-radius: 999px;
       padding: 8px 16px;
+    }
+  }
+
+}
+
+#projects {
+  background-color: var(--gray-200);
+
+  .cards {
+    .card {
+      h3 {}
     }
   }
 
