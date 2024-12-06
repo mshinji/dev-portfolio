@@ -64,6 +64,12 @@
       width: 330px;
       height: 280px;
       border-radius: 12px;
+      transition: outline 0.3s ease;
+
+      &:hover {
+        outline: 1px solid var(--gray-400);
+      }
+
 
       img {
         width: 306px;
@@ -71,6 +77,9 @@
         border-radius: 8px;
         margin-bottom: 15px;
       }
+
+
+
 
       h3 {
         font: var(--title-sm);
