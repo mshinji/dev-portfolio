@@ -96,3 +96,6 @@
   color: var(--gray-600);
 }
 
+.grid {
+  display: grid;
+}

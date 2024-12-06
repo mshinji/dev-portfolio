@@ -50,6 +50,9 @@
 
   header {
     margin-bottom: 56px;
+    p {
+      margin-bottom: 8px;
+    }
   }
 
   .cards {
@@ -67,7 +70,7 @@
       transition: outline 0.3s ease;
 
       &:hover {
-        outline: 1px solid var(--gray-400);
+        outline: 2px solid var(--gray-400);
       }
 
 
@@ -98,4 +101,42 @@
     }
   }
 
+}
+
+#services {
+  padding-top: 88px;
+  place-items: center;
+  background-color: var(--gray-100);
+  header {
+    p{
+      margin-bottom: 8px;
+      place-self: center;
+    }
+  }
+
+  .service-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    gap: 24px;
+
+    .service-card {
+      border: 2px solid var(--gray-300);
+      border-radius: 12px;
+      margin-top: 56px;
+      margin-bottom: 120px;
+      padding: 20px;
+     
+      h3 {
+        margin-top: 20px;
+        margin-bottom: 8px;
+        color: var(--gray-600);
+        font: var(--title-sm);
+      }
+
+      p {
+        color: var(--gray-500);
+        font: var(--text-sm);
+      }
+    }
+  }
 }
